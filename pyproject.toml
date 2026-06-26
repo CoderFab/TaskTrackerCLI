@@ -1,0 +1,16 @@
+[tool.ruff]
+# Setze die maximale Zeilenlänge (PEP 8 empfiehlt oft 79 oder 88)
+line-length = 88
+
+# Bestimme, welche Python-Version du nutzt
+target-version = "py310"
+
+[tool.ruff.lint]
+# "E" und "F" aktivieren die Standard-Fehlerprüfungen (wie Flake8)
+# "I" sorgt dafür, dass deine Imports automatisch sortiert werden (wie isort)
+select = ["E", "F", "I"]
+fixable = ["ALL"]
+
+[tool.ruff.format]
+# Nutze doppelte Anführungszeichen für Strings (wie bei Black)
+quote-style = "double"
