@@ -2,3 +2,7 @@
 __pycache__/
 *.pyc
 .env
+.prettierrc
+ablauf.txt
+#
+pyproject.toml
